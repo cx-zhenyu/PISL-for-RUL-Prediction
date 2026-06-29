@@ -1,18 +1,17 @@
 ## Introduction
-This repository contains the official implementation of our physics-informed semi-supervised learning (PISL) framework for bearing degradation modeling and remaining useful life (RUL) prediction. 
+This repository contains the official implementation of our **physics-informed semi-supervised learning (PISL) framework** for bearing degradation modeling and remaining useful life (RUL) prediction. 
 
 ## Dataset
 
-The XJTU-SY dataset is utilized to validate the effectiveness and superiority of the proposed PISL framework. 
+**The XJTU-SY dataset** is utilized to validate the effectiveness and superiority of the proposed PISL framework. 
 
-Given that the proposed framework is designed to extract a unified degradation pattern and estimate a shared physical failure threshold for similar components, it is imperative to utilize bearings that share a common degradation behavior. Consequently, six specific bearings (namely 1-2, 2-2, 1-3, 3-5, 2-5, and 3-1) exclusively exhibiting outer race faults are selected from the dataset for the subsequent experiments. To establish a rigorous standard for data annotation, a relative failure criterion consistent with the original data collection protocol is adopted. A bearing is deemed to have failed when its maximum vibration amplitude in either direction exceeds seven times the historical maximum amplitude recorded during its normal operating phase. Any data collected subsequent to this point is labeled as fault data. Consequently, the specific amplitude failure thresholds for the six selected sequences are definitively determined as 25.9, 18.9, 17.5, 31.5, 21.0, and 31.5. The dataset is strategically partitioned based on these thresholds as shown in the table below.
+Given that the proposed framework is designed to extract a unified degradation pattern and estimate a shared physical failure threshold for similar components, it is imperative to utilize bearings that share a common degradation behavior. Consequently, **six specific bearings (namely 1-2, 2-2, 1-3, 3-5, 2-5, and 3-1)** exclusively exhibiting outer race faults are selected from the dataset for the subsequent experiments. To establish a rigorous standard for data annotation, a relative failure criterion consistent with the original data collection protocol is adopted. A bearing is deemed to have failed when its maximum vibration amplitude in either direction exceeds seven times the historical maximum amplitude recorded during its normal operating phase. Any data collected subsequent to this point is labeled as fault data. Consequently, the specific amplitude failure thresholds for the six selected sequences are definitively determined as 25.9, 18.9, 17.5, 31.5, 21.0, and 31.5. The dataset is strategically partitioned based on these thresholds as shown in the table below.
 
 **Training set:** Three bearings (1-2, 2-2, and 3-1) are designated as historically failed bearings, providing full run-to-failure data. For these bearings, the initial stable segment is labeled as normal data, data after the threshold is labeled as fault data, and the intermediate segment is treated as unlabeled data.
 
 **Testing Set:** The remaining three bearings are treated as in-service (non-failed) bearings to evaluate degradation modeling and RUL prediction capabilities, with their health states completely hidden during training.
 
-<table>
-  <caption>Information of the train and test bearings.</caption>
+<table style="text-align: center; border-collapse: collapse; margin: auto;">
   <thead>
     <tr>
       <th rowspan="2">Dataset</th>
