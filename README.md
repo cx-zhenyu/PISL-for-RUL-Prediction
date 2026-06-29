@@ -11,7 +11,7 @@ Given that the proposed framework is designed to extract a unified degradation p
 
 **Testing Set:** The remaining three bearings are treated as in-service (non-failed) bearings to evaluate degradation modeling and RUL prediction capabilities, with their health states completely hidden during training.
 
-<table style="border-collapse: collapse; width: 100%; serif; text-align: center;">
+<table style="border-collapse: collapse; width: 100%; text-align: center;">
     <!-- 表头部分 -->
     <thead style="border-top: 2px solid black; border-bottom: 1px solid black;">
         <tr>
