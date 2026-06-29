@@ -11,6 +11,7 @@ Given that the proposed framework is designed to extract a unified degradation p
 
 **Testing Set:** The remaining three bearings are treated as in-service (non-failed) bearings to evaluate degradation modeling and RUL prediction capabilities, with their health states completely hidden during training.
 
+<div align="center">
 <table border="1" align="center" style="margin: auto; text-align: center;">
     <thead>
         <tr style="text-align: center;">
@@ -82,6 +83,7 @@ Given that the proposed framework is designed to extract a unified degradation p
         </tr>
     </tbody>
 </table>
+</div>
 
 ## Demostration
 A demonstration video which illustrates the reconstruction process can be viewed at: https://pisl-for-rul-prediction.oss-cn-hangzhou.aliyuncs.com/demo_PISL_RUL_6.0.mp4
