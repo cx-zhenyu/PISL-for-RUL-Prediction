@@ -28,56 +28,12 @@ Given that the proposed framework is designed to extract a unified degradation p
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td rowspan="3">Train</td>
-      <td>0</td>
-      <td>Bearing 1_2</td>
-      <td>161</td>
-      <td>1–20</td>
-      <td>21–124</td>
-      <td>125–161</td>
-      <td>125</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>Bearing 2_2</td>
-      <td>161</td>
-      <td>1–30</td>
-      <td>31–115</td>
-      <td>116–161</td>
-      <td>116</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Bearing 1_3</td>
-      <td>158</td>
-      <td>1–40</td>
-      <td>41–147</td>
-      <td>148–158</td>
-      <td>148</td>
-    </tr>
-    <tr>
-      <td rowspan="3">Test</td>
-      <td>3</td>
-      <td>Bearing 3_5</td>
-      <td>70</td>
-      <td colspan="3">1–70</td>
-      <td>74</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Bearing 2_5</td>
-      <td>260</td>
-      <td colspan="3">1–260</td>
-      <td>262</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Bearing 3_1</td>
-      <td>170</td>
-      <td colspan="3">2350–2520</td>
-      <td>2524</td>
-    </tr>
+    <tr><td rowspan="3">Train</td><td>0</td><td>Bearing 1_2</td><td>161</td><td>1–20</td><td>21–124</td><td>125–161</td><td>125</td></tr>
+    <tr><td>1</td><td>Bearing 2_2</td><td>161</td><td>1–30</td><td>31–115</td><td>116–161</td><td>116</td></tr>
+    <tr><td>2</td><td>Bearing 1_3</td><td>158</td><td>1–40</td><td>41–147</td><td>148–158</td><td>148</td></tr>
+    <tr><td rowspan="3">Test</td><td>3</td><td>Bearing 3_5</td><td>70</td><td colspan="3">1–70</td><td>74</td></tr>
+    <tr><td>4</td><td>Bearing 2_5</td><td>260</td><td colspan="3">1–260</td><td>262</td></tr>
+    <tr><td>5</td><td>Bearing 3_1</td><td>170</td><td colspan="3">2350–2520</td><td>2524</td></tr>
   </tbody>
 </table>
 
