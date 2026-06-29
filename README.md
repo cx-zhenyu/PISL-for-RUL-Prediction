@@ -11,74 +11,73 @@ Given that the proposed framework is designed to extract a unified degradation p
 
 **Testing Set:** The remaining three bearings are treated as in-service (non-failed) bearings to evaluate degradation modeling and RUL prediction capabilities, with their health states completely hidden during training.
 
-<table style="border-collapse: collapse; width: 100%; text-align: center;">
-    <thead style="border-top: 2px solid black; border-bottom: 1px solid black;">
+<table border="1">
+    <caption>Table 1: Information of the train and test bearings.</caption>
+    <thead>
         <tr>
-            <th rowspan="2" style="padding: 8px;">Dataset</th>
-            <th rowspan="2" style="padding: 8px;">NO.</th>
-            <th rowspan="2" style="padding: 8px;">Bearing</th>
-            <th rowspan="2" style="padding: 8px;">Total number<br>of samples</th>
-            <th colspan="3" style="padding: 8px; border-bottom: 1px solid black;">Time range (min)</th>
-            <th rowspan="2" style="padding: 8px;">EOL</th>
+            <th rowspan="2">Dataset</th>
+            <th rowspan="2">NO.</th>
+            <th rowspan="2">Bearing</th>
+            <th rowspan="2">Total samples</th>
+            <th colspan="3">Time range (min)</th>
+            <th rowspan="2">EOL</th>
         </tr>
         <tr>
-            <th style="padding: 5px;">Normal</th>
-            <th style="padding: 5px;">Unknown</th>
-            <th style="padding: 5px;">Fault</th>
+            <th>Normal</th>
+            <th>Unknown</th>
+            <th>Fault</th>
         </tr>
     </thead>
-
     <tbody>
         <tr>
-            <td rowspan="3" style="border-bottom: 1px solid black; font-weight: bold;">Train</td>
-            <td style="padding: 5px;">0</td>
-            <td style="padding: 5px;">Bearing 1_2</td>
-            <td style="padding: 5px;">161</td>
-            <td style="padding: 5px;">1-20</td>
-            <td style="padding: 5px;">21-124</td>
-            <td style="padding: 5px;">125-161</td>
-            <td style="padding: 5px;">125</td>
+            <td rowspan="3">Train</td>
+            <td>0</td>
+            <td>Bearing 1_2</td>
+            <td>161</td>
+            <td>1-20</td>
+            <td>21-124</td>
+            <td>125-161</td>
+            <td>125</td>
         </tr>
         <tr>
-            <td style="padding: 5px;">1</td>
-            <td style="padding: 5px;">Bearing 2_2</td>
-            <td style="padding: 5px;">161</td>
-            <td style="padding: 5px;">1-30</td>
-            <td style="padding: 5px;">31-115</td>
-            <td style="padding: 5px;">116-161</td>
-            <td style="padding: 5px;">116</td>
+            <td>1</td>
+            <td>Bearing 2_2</td>
+            <td>161</td>
+            <td>1-30</td>
+            <td>31-115</td>
+            <td>116-161</td>
+            <td>116</td>
         </tr>
         <tr>
-            <td style="border-bottom: 1px solid black; padding: 5px;">2</td>
-            <td style="border-bottom: 1px solid black; padding: 5px;">Bearing 1_3</td>
-            <td style="border-bottom: 1px solid black; padding: 5px;">158</td>
-            <td style="border-bottom: 1px solid black; padding: 5px;">1-40</td>
-            <td style="border-bottom: 1px solid black; padding: 5px;">41-147</td>
-            <td style="border-bottom: 1px solid black; padding: 5px;">148-158</td>
-            <td style="border-bottom: 1px solid black; padding: 5px;">148</td>
-        </tr>
-
-        <tr>
-            <td rowspan="3" style="border-bottom: 2px solid black; font-weight: bold;">Test</td>
-            <td style="padding: 5px;">3</td>
-            <td style="padding: 5px;">Bearing 3_5</td>
-            <td style="padding: 5px;">70</td>
-            <td colspan="3" style="padding: 5px;">1-70</td>
-            <td style="padding: 5px;">74</td>
+            <td>2</td>
+            <td>Bearing 1_3</td>
+            <td>158</td>
+            <td>1-40</td>
+            <td>41-147</td>
+            <td>148-158</td>
+            <td>148</td>
         </tr>
         <tr>
-            <td style="padding: 5px;">4</td>
-            <td style="padding: 5px;">Bearing 2_5</td>
-            <td style="padding: 5px;">260</td>
-            <td colspan="3" style="padding: 5px;">1-260</td>
-            <td style="padding: 5px;">262</td>
+            <td rowspan="3">Test</td>
+            <td>3</td>
+            <td>Bearing 3_5</td>
+            <td>70</td>
+            <td colspan="3">1-70</td>
+            <td>74</td>
         </tr>
         <tr>
-            <td style="border-bottom: 2px solid black; padding: 5px;">5</td>
-            <td style="border-bottom: 2px solid black; padding: 5px;">Bearing 3_1</td>
-            <td style="border-bottom: 2px solid black; padding: 5px;">170</td>
-            <td colspan="3" style="border-bottom: 2px solid black; padding: 5px;">2350-2520</td>
-            <td style="border-bottom: 2px solid black; padding: 5px;">2524</td>
+            <td>4</td>
+            <td>Bearing 2_5</td>
+            <td>260</td>
+            <td colspan="3">1-260</td>
+            <td>262</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Bearing 3_1</td>
+            <td>170</td>
+            <td colspan="3">2350-2520</td>
+            <td>2524</td>
         </tr>
     </tbody>
 </table>
